@@ -1,6 +1,5 @@
 module block_cipher_top(
   input clk,rst,
-  input [7:0]plain_data,
   output reg [7:0]encrypted_data);
 
  wire [7:0]lfsr_out;
